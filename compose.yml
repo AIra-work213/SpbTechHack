@@ -1,3 +1,5 @@
 services:
   qdrant:
     build: Qdrant
+    ports:
+      - "6333:6333"
